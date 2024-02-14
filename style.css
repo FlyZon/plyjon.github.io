@@ -1,0 +1,28 @@
+.container div{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	margin: 10px;
+}
+
+@media screen and (max-width:680px){
+	.container div{
+		width: 100px;
+		height: 100px;
+		background-color: blue;
+		position: relative;
+		top: 40%;
+		left: 40%;
+	}
+}
+
+@media screen and (max-width:500px){
+	.container div{
+		width: 150px;
+		height: 150px;
+		background-color: green;
+		position: relative;
+		top: 40%;
+		left: 40%;
+	}
+}
